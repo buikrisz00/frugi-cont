@@ -8,9 +8,9 @@ function LandingSection() {
             <nav>
                 <img src="" alt="Logo" />
                 <ul>
-                    <li>Rólunk</li>
-                    <li>Szolgáltatások</li>
-                    <li>Kapcsolat</li>
+                    <a href="#aboutSection"><li>Rólunk</li></a>
+                    <a href="#aboutSection"><li>Szolgáltatások</li></a>
+                    <a href="#aboutSection"><li>Kapcsolat</li></a>
                 </ul>
             </nav>
             <div className='content'>
