@@ -1,6 +1,7 @@
 #landingSection {
     display: flex;
     flex-direction: column;
+    background-image: url("../../../public/images/landing_bg.jpg");
     width: 100%;
     min-height: calc(100vh - 80px);
 }
@@ -26,7 +27,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ebf8f3;
     height: calc(100vh - 180px);
 }
 
