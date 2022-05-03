@@ -21,3 +21,21 @@ header div .locationIcon {
     width: 30px;
     color: #fff;
 }
+
+@media (max-width: 820px) {  
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        padding: unset;
+    }
+    
+    header div {
+        gap: 10px;
+    }
+    
+    header div h4 {
+        font-size: 12px;
+    }
+}

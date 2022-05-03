@@ -5,7 +5,7 @@ import { BsCheck2Circle } from 'react-icons/bs';
 
 function ChooseUs() {
     return (
-        <div className='chooseUs'>
+        <div id='chooseUs'>
             <h3 className='title'>Miért minket válasszon?</h3>
             <div className='content'>
                 <div className='contentSeparator leftContent'>

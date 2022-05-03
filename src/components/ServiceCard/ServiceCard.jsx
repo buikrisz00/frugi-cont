@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ServiceCard.css';
 
-function ServiceCard({ img, text}) {
-  return (
-    <div className='serviceCard'>
-        <img src={`./images/${img}`} alt={img} />
-        <h4>{text}</h4>
-    </div>
-  )
-}
+function ServiceCard({ id, img, title, setShowDetails }) {
+
+	return (
+		<div className='serviceCard' onClick={() => setShowDetails({ show: true, id })}>
+			<img src={`./images/${img}`} alt={img} />
+			<h4>{title}</h4>
+		</div>
+	)
+  }
 
 export default ServiceCard;

@@ -5,7 +5,7 @@ import { IoLocationOutline } from 'react-icons/io5';
 function Header() {
   return (
     <header>
-        <div>
+        <div className='headerLocation'>
             <IoLocationOutline className='locationIcon'/>
             <h4>Dunakeszi, Magyarország</h4>
         </div>
