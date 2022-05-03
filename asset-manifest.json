@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/frugi-cont/static/css/main.bf163bfc.css",
+    "main.css": "/frugi-cont/static/css/main.904043ef.css",
     "main.js": "/frugi-cont/static/js/main.dbde21af.js",
     "static/media/service_bg.jpg": "/frugi-cont/static/media/service_bg.e146976823efc8329b8c.jpg",
     "static/media/landing_bg.jpg": "/frugi-cont/static/media/landing_bg.7df4805c9b6ea087b4c6.jpg",
     "static/media/contact_bg.jpg": "/frugi-cont/static/media/contact_bg.29c8b57b35339e58ecbb.jpg",
     "index.html": "/frugi-cont/index.html",
-    "main.bf163bfc.css.map": "/frugi-cont/static/css/main.bf163bfc.css.map",
+    "main.904043ef.css.map": "/frugi-cont/static/css/main.904043ef.css.map",
     "main.dbde21af.js.map": "/frugi-cont/static/js/main.dbde21af.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf163bfc.css",
+    "static/css/main.904043ef.css",
     "static/js/main.dbde21af.js"
   ]
 }
