@@ -16,11 +16,11 @@ function ChooseUs() {
                     <img src="./images/placeholder.png" alt="About us" className='aboutUs' />
                     <button className='right'>
                         <HiPlusCircle className='icon' />
-                        <h4>Kiemelkedő szolgáltatás?</h4>
+                        <h4>?Kiemelkedő szolgáltatás?</h4>
                     </button>
                 </div>
                 <div className='contentSeparator rightContent'>
-                    <h2>Frugi-Cont kártevőírtó WTF</h2>
+                    <h2>??Frugi-Cont kártevőírtó akármi??</h2>
                     <h3>Legjobb minőségi szolgáltatásokat biztosítjuk kártevő problémáira!</h3>
                     <div className="listItem">
                         <BsCheck2Circle className='check' />
