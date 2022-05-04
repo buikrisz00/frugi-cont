@@ -9,9 +9,12 @@ function ContactSection() {
     const [formData, setFormData] = useState(
         { contactName: "", contactPhone: "", contactMail: "", contactService: "", contactMessage: "" }
     )
+
     function handleChange(e) {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     }
+
+    const [formSubmitted, setFormSubmitted] = useState(false);
 
     return (
         <section id='contactSection'>
@@ -41,7 +44,11 @@ function ContactSection() {
                     </div>
                 </div>
             </div>
-            <form>
+
+            {!formSubmitted ? <form onSubmit={(e) => {
+                e.preventDefault();
+                setFormSubmitted(true);
+            }}>
                 <h2>Lépjen kapcsolatba velünk</h2>
                 <div>
                     <input type="text" name="contactName" id="contactName" placeholder='Név' value={formData.contactName} onChange={handleChange} />
@@ -54,6 +61,11 @@ function ContactSection() {
                 <textarea name="contactMessage" id="contactMessage" cols="30" rows="10" placeholder='Üzenet...' value={formData.contactMessage} onChange={handleChange} />
                 <button>Küldés</button>
             </form>
+            :
+            <form>
+                <h2 className='confirmationTxt'>Köszönjük!<br/><br/> Munkatársunk 24 órán belül válaszolni fog üzenetére!</h2>
+            </form>
+            }
         </section>
     )
 }
