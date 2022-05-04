@@ -16,6 +16,11 @@ header div {
     gap: 20px;
 }
 
+header div h4.selected {
+    background-color: #54557e;
+    border-radius: 20px;
+}
+
 header div .locationIcon {
     height: 30px;
     width: 30px;

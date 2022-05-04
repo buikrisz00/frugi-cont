@@ -1,17 +1,16 @@
 import './App.css';
-import AboutSection from './components/AboutSection/AboutSection';
-import ContactSection from './components/ContactSection/ContactSection';
-import Header from './components/Header/Header';
-import LandingSection from './components/LandingSection/LandingSection';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PestControl from './components/PestComponents/PestControl/PestControl';
+import Ozone from './components/OzoneComponents/Ozone/Ozone';
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            <LandingSection />
-            <AboutSection />
-            <ContactSection />
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={ <PestControl /> }/>
+                <Route path="/ozone" element={ <Ozone /> }/>
+            </Routes>
+        </BrowserRouter>
     );
 }
 

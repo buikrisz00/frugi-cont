@@ -1,5 +1,5 @@
 import React from 'react';
-import LandingForm from '../LandingForm/LandingForm';
+import LandingForm from '../../Global/LandingForm/LandingForm';
 import './LandingSection.css';
 
 function LandingSection() {
