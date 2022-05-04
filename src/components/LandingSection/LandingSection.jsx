@@ -14,7 +14,10 @@ function LandingSection() {
                 </ul>
             </nav>
             <div className='content'>
-                <h2>Lakások védelme a váratlan betolakodóktól</h2>
+                <div>
+                    <h2>Lakások védelme a váratlan betolakodóktól</h2>
+                    <img src="./images/pest_control.png" alt="Pest Control" />
+                </div>
                 <LandingForm />
             </div>
         </section>
