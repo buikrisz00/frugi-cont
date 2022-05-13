@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/frugi-cont/static/css/main.79cae21e.css",
-    "main.js": "/frugi-cont/static/js/main.9052fb70.js",
+    "main.css": "/frugi-cont/static/css/main.1abcffd8.css",
+    "main.js": "/frugi-cont/static/js/main.bb09ff9f.js",
     "static/media/service_bg.jpg": "/frugi-cont/static/media/service_bg.e146976823efc8329b8c.jpg",
     "static/media/landing_bg.jpg": "/frugi-cont/static/media/landing_bg.7df4805c9b6ea087b4c6.jpg",
     "static/media/contact_bg.jpg": "/frugi-cont/static/media/contact_bg.29c8b57b35339e58ecbb.jpg",
     "index.html": "/frugi-cont/index.html",
-    "main.79cae21e.css.map": "/frugi-cont/static/css/main.79cae21e.css.map",
-    "main.9052fb70.js.map": "/frugi-cont/static/js/main.9052fb70.js.map"
+    "main.1abcffd8.css.map": "/frugi-cont/static/css/main.1abcffd8.css.map",
+    "main.bb09ff9f.js.map": "/frugi-cont/static/js/main.bb09ff9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.79cae21e.css",
-    "static/js/main.9052fb70.js"
+    "static/css/main.1abcffd8.css",
+    "static/js/main.bb09ff9f.js"
   ]
 }
